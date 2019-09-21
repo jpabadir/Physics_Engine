@@ -8,7 +8,7 @@ class Ball {
     x = width / 2;
     y = height / 2;
     radius = 15;
-    velocity = new PVector(5, 5);
+    velocity = new PVector(0, 0);
   }
 
   void display() {
@@ -17,6 +17,9 @@ class Ball {
   }
 
   void move() {
+    // accelerate
+    
+    
     // bounce
     if (x + radius >= width || x - radius <= 0 || y + radius >= height || y - radius <= 0) {
       velocity.rotate(PI);
