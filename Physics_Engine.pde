@@ -2,7 +2,7 @@ Ball ball;
 
 void setup() {
   size(600, 600);
-  //frameRate(10);
+  //frameRate(1);
   ball = new Ball();
 }
 
